@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LO VI AI</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family:Arial;text-align:center;padding:40px;background:#111;color:white;">
-<h1>🤖 Welcome to My AI Website</h1>
-<p>My website is working successfully!</p>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>🤖 LO VI AI</h1>
+    <p>Your Personal AI Assistant</p>
+  </header>
+
+  <div id="chatBox" class="chat-box">
+
+    <div class="bot">
+      👋 Hello! I'm LO VI AI.<br>
+      Ask me anything.
+    </div>
+
+  </div>
+
+  <div class="input-area">
+
+    <textarea
+      id="prompt"
+      placeholder="Type your message..."
+    ></textarea>
+
+    <button id="sendBtn">
+      Send
+    </button>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
